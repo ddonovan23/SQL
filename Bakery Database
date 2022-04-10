@@ -1,0 +1,17 @@
+CREATE TABLE Bakery (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER, calories INTEGER);
+INSERT into Bakery VALUES (1, "vanilla", 10, 2.00, 120);
+INSERT into Bakery VALUES (2, "chocolate", 10, 2.00, 120);
+INSERT into Bakery VALUES (3, "chocolate raspberry", 8, 2.50, 150);
+INSERT into Bakery VALUES (4, "pumpkin", 10, 2.00, 120);
+INSERT into Bakery VALUES (5, "lemon poppy", 9, 2.50, 110);
+INSERT into Bakery VALUES (6, "triple chocolate", 10, 2.75, 160);
+INSERT into Bakery VALUES (7, "carrot cake", 9, 2.50, 130);
+INSERT into Bakery VALUES (8, "coconut", 9, 2.50, 150);
+INSERT into Bakery VALUES (9, "red velvet", 10, 2.50, 150);
+INSERT into Bakery VALUES (10, "blueberry", 8, 2.00, 110);
+INSERT into Bakery VALUES (11, "cookies and cream", 10, 2.75, 170);
+INSERT into Bakery VALUES (12, "caramel", 8, 2.50, 140);
+INSERT into Bakery VALUES (13, "boston cream", 7, 2.50, 160);
+INSERT into Bakery VALUES (14, "german chocolate", 9, 2.50, 170);
+INSERT into Bakery VALUES (15, "funfetti", 10, 2.00, 120);
+SELECT * FROM Bakery;
